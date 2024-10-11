@@ -28,3 +28,13 @@
     transform: translate(-50%, -50%);
     padding: 15px;
 }
+
+.buttonCalculator{
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.buttonCalculator:hover{
+    background-color: blue;
+}
