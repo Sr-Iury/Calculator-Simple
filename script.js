@@ -24,3 +24,4 @@ function calculate (){
         alert("Insira um número válido para ser calculado, o campo está vazio.");
     }
 }
+

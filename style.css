@@ -46,7 +46,9 @@
 }
 
 #result{
-    width: 100%px;
+    max-width: 212px;
+    display: hidden;
+    overflow: hidden;
     background-color: #fff;
     height: 30px;
     margin: 5px;
@@ -55,3 +57,4 @@
     color: #000;
     padding: 5px;
 }
+
