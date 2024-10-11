@@ -13,3 +13,14 @@ function deletedata() {
     var resultfinish = document.getElementById('result').innerHTML;
     document.getElementById('result').innerHTML = resultfinish.substring(0, resultfinish.length - 1);
 }
+
+function calculate (){
+    var result = document.getElementById('result').innerHTML;
+    if(result)
+    {
+        document.getElementById('result').innerHTML = eval(result);
+    }
+    else{
+        alert("Insira um número válido para ser calculado, o campo está vazio.");
+    }
+}
