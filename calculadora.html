@@ -11,7 +11,7 @@
         <h1>CALCULADORA SIMPLES - IURY FIM DA SILVA</h1>
             <div class="Calculator">
             <h1 style="font-size: 26px;">Calculadora</h1>
-            <p id="result">890</p>
+            <p id="result"></p>
             <table><!--Tabela-->
                 <tr><!--Linha1-->
                     <td><button class="buttonCalculator">C</button></td><!--Dados da linha-->
@@ -21,23 +21,23 @@
                 </tr>
 
                 <tr><!--Linha2-->
-                    <td><button class="buttonCalculator">7</button></td><!--Dados da linha-->
-                    <td><button class="buttonCalculator">8</button></td>
-                    <td><button class="buttonCalculator">9</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('7')">7</button></td><!--Dados da linha-->
+                    <td><button class="buttonCalculator" onclick="insertData('8')">8</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('9')">9</button></td>
                     <td><button class="buttonCalculator">-</button></td>
                 </tr>
 
                 <tr><!--Linha3-->
-                    <td><button class="buttonCalculator">4</button></td><!--Dados da linha-->
-                    <td><button class="buttonCalculator">5</button></td>
-                    <td><button class="buttonCalculator">6</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('4')">4</button></td><!--Dados da linha-->
+                    <td><button class="buttonCalculator" onclick="insertData('5')">5</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('6')">6</button></td>
                     <td><button class="buttonCalculator">+</button></td>
                 </tr>
 
                 <tr><!--Linha4-->
-                    <td><button class="buttonCalculator">1</button></td><!--Dados da linha-->
-                    <td><button class="buttonCalculator">2</button></td>
-                    <td><button class="buttonCalculator">3</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('1')">1</button></td><!--Dados da linha-->
+                    <td><button class="buttonCalculator" onclick="insertData('2')">2</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('3')">3</button></td>
                     <td rowspan="2"><button class="buttonCalculator" style="height: 106px;">=</button></td>
                 </tr>
 
@@ -48,5 +48,7 @@
             </table>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
