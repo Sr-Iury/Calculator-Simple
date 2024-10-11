@@ -4,3 +4,12 @@ function insertData(number){
     var SavedNumber = document.getElementById('result').innerHTML;
     SavedNumber = document.getElementById('result').innerHTML = SavedNumber + number;
 }
+
+function clearField(){
+    document.getElementById('result').innerHTML = ""
+}
+
+function deletedata() {
+    var resultfinish = document.getElementById('result').innerHTML;
+    document.getElementById('result').innerHTML = resultfinish.substring(0, resultfinish.length - 1);
+}

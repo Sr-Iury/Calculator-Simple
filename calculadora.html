@@ -14,24 +14,24 @@
             <p id="result"></p>
             <table><!--Tabela-->
                 <tr><!--Linha1-->
-                    <td><button class="buttonCalculator">C</button></td><!--Dados da linha-->
-                    <td><button class="buttonCalculator"><</button></td>
-                    <td><button class="buttonCalculator">/</button></td>
-                    <td><button class="buttonCalculator">X</button></td>
+                    <td><button class="buttonCalculator" onclick="clearField()">C</button></td><!--Dados da linha-->
+                    <td><button class="buttonCalculator" onclick="deletedata()"><</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('÷')">/</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('*')">X</button></td>
                 </tr>
 
                 <tr><!--Linha2-->
                     <td><button class="buttonCalculator" onclick="insertData('7')">7</button></td><!--Dados da linha-->
                     <td><button class="buttonCalculator" onclick="insertData('8')">8</button></td>
                     <td><button class="buttonCalculator" onclick="insertData('9')">9</button></td>
-                    <td><button class="buttonCalculator" >-</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('-')">-</button></td>
                 </tr>
 
                 <tr><!--Linha3-->
                     <td><button class="buttonCalculator" onclick="insertData('4')">4</button></td><!--Dados da linha-->
                     <td><button class="buttonCalculator" onclick="insertData('5')">5</button></td>
                     <td><button class="buttonCalculator" onclick="insertData('6')">6</button></td>
-                    <td><button class="buttonCalculator">+</button></td>
+                    <td><button class="buttonCalculator" onclick="insertData('+')">+</button></td>
                 </tr>
 
                 <tr><!--Linha4-->
