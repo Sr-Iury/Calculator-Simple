@@ -1,7 +1,7 @@
 //A Função abaixo ela reivindica um parametro que vai ser os dados a serem clicados, e por meio deste, obtemos
 //comandos de inserção de dados que é feita pela innerhtml através da reivindicaçaõ do result
 function insertData(number){
-    var SavedNumber = document.getElementById('result').innerHTML;
+    let SavedNumber = document.getElementById('result').innerHTML;
     SavedNumber = document.getElementById('result').innerHTML = SavedNumber + number;
 }
 
@@ -10,12 +10,12 @@ function clearField(){
 }
 
 function deletedata() {
-    var resultfinish = document.getElementById('result').innerHTML;
+    let resultfinish = document.getElementById('result').innerHTML;
     document.getElementById('result').innerHTML = resultfinish.substring(0, resultfinish.length - 1);
 }
 
 function calculate (){
-    var result = document.getElementById('result').innerHTML;
+    let result = document.getElementById('result').innerHTML;
     if(result)
     {
         document.getElementById('result').innerHTML = eval(result);
